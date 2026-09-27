@@ -1,0 +1,5 @@
+{
+  "name": "handshake",
+  "private": true,
+  "type": "module"
+}

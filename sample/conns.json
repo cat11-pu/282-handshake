@@ -1,0 +1,13 @@
+{
+  "budget": 1,
+  "range_error_code": "E_BAD_RANGE",
+  "conn_error_code": "E_DUPLICATE_CONN",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "results": {}, "failed": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "conn", "name": "c1", "client": [1, 5], "server": [3, 8] },
+    { "id": 2, "kind": "conn", "name": "c2", "client": [1, 2], "server": [3, 4] },
+    { "id": 3, "kind": "conn", "name": "c3", "client": [4, 9], "server": [2, 6] },
+    { "id": 4, "kind": "conn", "name": "c4", "client": [1, 9], "server": [7, 9] }
+  ]
+}
